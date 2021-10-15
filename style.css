@@ -40,3 +40,7 @@ h1 {
 .countdown-el span {
     font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 767px) {
+    .countdown-container{float:none!important}
+}
