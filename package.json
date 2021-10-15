@@ -4,7 +4,10 @@
   "description": "A countdown timer for my trip to canada",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
   },
   "repository": {
     "type": "git",
