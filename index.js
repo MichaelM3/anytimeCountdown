@@ -3,7 +3,7 @@ const hoursEl = document.getElementById('hours');
 const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
 
-const arrival = 'November 4, 2021 02:20:00';
+const arrival = 'November 4, 2021 14:20:00';
 
 function countdown() {
     const arrivalDate = new Date(arrival);
