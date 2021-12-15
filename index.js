@@ -4,7 +4,7 @@ const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
 const countdownContainer = document.querySelector('.countdown-container')
 
-const arrival = 'November 4, 2021 14:20:00';
+const arrival = 'December 27, 2021 15:30:00';
 
 function countdown() {
     const arrivalDate = new Date(arrival);
